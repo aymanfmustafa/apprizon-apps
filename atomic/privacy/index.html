@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atomic privacy policy</title>
+<style>
+  body { font: 17px/1.6 -apple-system, "Segoe UI", Roboto, sans-serif; color: #1c1b1a; background: #fbfaf8; margin: 0; }
+  main { max-width: 40rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 1.5rem; }
+  p { margin: 0 0 1.1rem; }
+  ul { margin: 0 0 1.1rem; padding-left: 1.3rem; }
+  li { margin: 0 0 0.3rem; }
+  a { color: #1c1b1a; }
+  .meta { color: #5f5c58; font-size: 0.95rem; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Atomic privacy policy</h1>
+
+<p>Atomic is an AI chat app for Android published by Apprizon LLC. You use it with your own account at an AI provider: an API key you paste, or an OpenRouter sign-in.</p>
+
+<p><strong>Nothing comes to us unless you report a reply.</strong> Atomic has no account, no ads, no analytics, no crash-reporting service and no server of ours. Your messages, your keys and how you use the app never reach us. The one exception is a reply you choose to report (see "Reporting a reply" below).</p>
+
+<p><strong>Your messages go to the provider you choose.</strong> To get a reply, the app sends your message from your phone directly to the AI provider you picked for it, using your key. The request contains your message and the earlier messages of that conversation, including earlier replies, each marked with the name of the model that wrote it, and a short note telling the model which replies were not its own. The providers built into the app are:</p>
+<ul>
+  <li>OpenRouter (<a href="https://openrouter.ai/privacy">privacy policy</a>), which passes your request on to the company that runs the model you picked;</li>
+  <li>OpenAI (<a href="https://openai.com/policies/privacy-policy/">privacy policy</a>);</li>
+  <li>Anthropic (<a href="https://www.anthropic.com/legal/privacy">privacy policy</a>);</li>
+  <li>Google, through the Gemini API (<a href="https://aistudio.google.com/docs/terms">terms</a>, <a href="https://policies.google.com/privacy">privacy policy</a>).</li>
+</ul>
+<p>You can also add a server of your own choosing by typing its address. The provider receives, processes and may keep what you send under its own terms and privacy policy, which are between you and that provider. We cannot see or delete anything you send to a provider. Requests to the built-in providers are always encrypted (HTTPS). A server you add yourself is reached at the address you type; if that is a plain <code>http://</code> address on the internet, the app warns you before saving it, because your key and messages would travel unencrypted.</p>
+
+<p><strong>Your API keys.</strong> Keys are encrypted on your phone with a key held in Android's secure keystore, and stored only on this phone. They are never backed up. A key is sent only to the provider it belongs to, with each request to that provider.</p>
+
+<p><strong>Connect OpenRouter.</strong> If you choose to sign in with OpenRouter, the app opens OpenRouter's own sign-in page in a browser tab. You sign in with OpenRouter, not with us, and OpenRouter's privacy policy applies. OpenRouter then gives the app a key on your OpenRouter account, which is stored like a pasted key. The app and OpenRouter exchange a one-time code to do this; nothing else about you passes through the app.</p>
+
+<p><strong>Other requests the app makes.</strong> The app asks each provider you set up for its list of models, using your key. About once a day it also downloads OpenRouter's public price list, without any key or message, to estimate what replies cost. Like any internet request, these requests show your phone's IP address to the provider that receives them.</p>
+
+<p><strong>What stays on your phone.</strong> Your conversations, their branches and costs, and your settings (the providers you set up and the models you chose) are stored on your phone. If Android's backup is turned on, Android may copy your conversations and settings, but never your keys, to your own Google account and to a new phone; you control that in Android's settings.</p>
+
+<p><strong>Reporting a reply.</strong> "Report this reply" opens a short form inside the app. If you send it, the app sends us the reason you chose, your note, the reply you reported, the name of the model that wrote it, the kind of provider it came from (for example OpenRouter or a server of your own, never its address), and the app version. A report never includes your key or the rest of the conversation. Reports go to a Google Form that we own, so Google stores them for us, under <a href="https://policies.google.com/privacy">Google's privacy policy</a>. We use reports only to look into the reply and to improve the app, and delete them when they are no longer needed for that. To have a report deleted, write to us.</p>
+
+<p><strong>Purchases.</strong> If you buy Pro, the payment is handled by Google Play. We receive no payment details. The app only asks Google Play whether your Google account owns Pro. Google's privacy policy applies to Google Play.</p>
+
+<p><strong>Permissions.</strong> The app asks for internet access only, to reach the providers you set up and Google Play. Google Play's billing library adds its own permissions to check purchases. The app does not use the advertising ID.</p>
+
+<p><strong>Deleting your data.</strong> Delete a conversation in the app to remove it and all its branches from your phone. Remove a provider in Settings to delete its key. Uninstalling the app, or clearing its storage in Android's settings, removes everything it stored. What you sent to a provider is held by that provider: use your account with it, or contact it, to delete it. Apart from reports you send, nothing reaches us; to have a report deleted, write to us at the address below.</p>
+
+<p><strong>Age.</strong> Atomic is meant for people aged 18 and over and is not directed at children.</p>
+
+<p><strong>Changes.</strong> If this policy changes, the new version will be posted on this page with a new date.</p>
+
+<p>Contact: <a href="mailto:apprizon@gmail.com">apprizon@gmail.com</a></p>
+
+<p class="meta">Last updated: 19 November 2026</p>
+</main>
+</body>
+</html>
